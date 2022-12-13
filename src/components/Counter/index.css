@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.button {
+  background-color: transparent;
+  margin: 20px;
+  outline: none;
+  border: 1px solid #737877;
+  height: 70px;
+  width: 70px;
+  font-weight: bold;
+}
+.count {
+  color: #606363;
+  font-size: 43px;
+}
