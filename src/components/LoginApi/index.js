@@ -29,6 +29,9 @@ const LoginApi = () => {
     }
     const response = await fetch(url, options)
     const data = await response.json()
+    console.log(email)
+    console.log(message)
+    console.log(name)
     if (response.ok === true) {
       console.log(data)
     }
